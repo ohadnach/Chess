@@ -131,8 +131,8 @@ public class App {
 
         // test 17
         System.out.println("Running test number " + testNum++);
-        testsA[++cnt] = "RookThreatsBishop";
-        if (!(c.RookThreatsBishop()))
+        testsA[++cnt] = "rookThreatsBishop";
+        if (!(c.rookThreatsBishop()))
             ++score;
         score *= 2;
 
@@ -140,15 +140,15 @@ public class App {
         System.out.println("board status: " + c);
         // test 18
         System.out.println("Running test number " + testNum++);
-        testsA[++cnt] = "RookThreatsBishop";
-        if ((c.RookThreatsBishop()))
+        testsA[++cnt] = "rookThreatsBishop";
+        if ((c.rookThreatsBishop()))
             ++score;
         score *= 2;
 
         // test 19
         System.out.println("Running test number " + testNum++);
-        testsA[++cnt] = "BishopThreatsRook";
-        if (!(c.BishopThreatsRook()))
+        testsA[++cnt] = "bishopThreatsRook";
+        if (!(c.bishopThreatsRook()))
             ++score;
         score *= 2;
 
@@ -157,8 +157,8 @@ public class App {
         System.out.println("board status: " + c);
         // test 20
         System.out.println("Running test number " + testNum++);
-        testsA[++cnt] = "BishopThreatsRook";
-        if ((c.BishopThreatsRook()))
+        testsA[++cnt] = "bishopThreatsRook";
+        if ((c.bishopThreatsRook()))
             ++score;
         score *= 2;
 
